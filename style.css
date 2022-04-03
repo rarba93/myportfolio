@@ -1,0 +1,19 @@
+
+body {
+    background-image: url('./images/gold-background.jpg');
+
+}
+ /* ----------- Navbar ----------- */
+.navbar {
+    background: transparent;
+}
+.nav-item a {
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+}
+.icontext {
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+}
