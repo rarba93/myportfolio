@@ -17,3 +17,19 @@ body {
     font-family: cursive;
     font-size: 18px;
 }
+ /* ----------- Hero content ----------- */
+ .introduction-background {
+    padding-top: 30%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-size: cover;
+    background-position: center;
+}
+.overlay {
+    top: 0;
+}
+#name {
+    font-weight: bold;
+    font-family: cursive;
+    border-bottom: 1px solid gold;
+}
