@@ -7,6 +7,7 @@ body {
 .navbar {
     background: transparent;
     right: 0;
+    margin-top: 15px;
 }
 .nav-item a {
     color: black;
@@ -35,6 +36,9 @@ body {
     font-family: cursive;
     border-bottom: 1px solid gold;
 }
+.socialmedia {
+    margin-top: 40px;
+}
 .socialmedia li {
     display: inline;
     margin: 10px;
@@ -42,14 +46,21 @@ body {
 .fa-brands {
     color: black;
 }
-
+.hero {
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
 
  /* ----------- Project Carousel ----------- */
  .carouselcontainer {
-     width: 700px;
-     height: 700px;
-     margin-top: 90px;
+     width: 800px;
+     height: 800px;
+     margin-top: 100px;
+     margin-bottom: 100px;
  }
+ .carousel {
+     border: 4px solid #f1c1c1}
+
 .carousel-item {
     height: 500px;
 }
@@ -58,10 +69,53 @@ body {
     height: 100% !important;
     object-fit: cover;
 }
-.project-title {
-    color: white;
+.subheading {
+    color: black;
     margin-bottom: 60px;
     text-align: center;
     font-family: cursive;
-    font-size: 60px;
+    font-size: 50px;
 }
+.text {
+    background-image: linear-gradient(rgba(216, 212, 212, 0.5), white);
+    position: absolute;
+    bottom: 0px;
+    opacity: 1;
+    left: 0;
+    right: 0;
+  }
+h5 {
+    color: black;
+    margin-bottom: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.project-link {
+    text-decoration: none;
+}
+ /* ----------- About me ----------- */
+.aboutme {
+    border: 4px solid #f1c1c1;
+    margin-bottom: 50px;
+}
+#mysection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.btn {
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    margin-right: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+}
+.btn {
+    transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: #f1c1c1;
+    color: white;
+  }
