@@ -14,7 +14,6 @@
 <body>
 
 <!-- NAVBAR -->
-
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <text class="icontext">Welcome to my page</text>
@@ -24,43 +23,47 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#About me">About me</a>
+            <a class="nav-link" href="#about">About me</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="#MyProjects">My Projects</a>
+            <a class="nav-link" href="#projects">My Projects</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 <!-- HERO CONTENT -->
-<div class="hero">
-    <div class="container-fluid-md hero">
-        <div class="row introduction">
-            <div class="col-12">
-                <div class="aspectRatioBox rounded introduction-background" style="background-image: url('./images/hero-background.jpg')"></div>
-                <div class="position-absolute w-100 h-100 mt-4 d-flex flex-column justify-content-center align-items-center overlay">
-                    <span class="card-text"><h1 id ="name" style="semi-bold font-size: 7vw">Abrar Husein</h1></span><br>
-                    <span class="card-text" style="font-size: 1vw">Full Stack Developer</span><br>
-                    <span class="card-text" style="font-size: 1vw">Web Designer</span> 
-                    <span>
-                      <ul class="socialmedia me-4" style="list-style: none">
-                        <li><a href="https://github.com/rarba93" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a></li>
-                        <li><a href="https://www.facebook.com/profile.php?id=100056004303717"><i class="fa-brands fa-facebook-f fa-lg" target="_blank"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-linkedin fa-lg" target="_blank"></i></a></li>
-                    </ul> 
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
+
+<div class="hero" id="home">
+  <div class="container-fluid hero">
+      <div class="row introduction">
+          <div class="col-12">
+            <div class="aspectRatioBox rounded position-relative introduction-background" style="background-image: url('./images/hero-background.jpg')"></div>
+              <div class="position-absolute w-100 h-100 mt-4 d-flex flex-column justify-content-center align-items-center overlay">
+                  <span class="card-text"><h1 id ="name" style="semi-bold">Abrar Husein</h1></span><br>
+                  <span class="card-text">Full Stack Developer</span><br>
+                  <span class="card-text">Web Designer</span> 
+                  <span>
+                    <ul class="socialmedia me-4" style="list-style: none">
+                      <li><a href="https://github.com/rarba93" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a></li>
+                      <li><a href="https://www.facebook.com/profile.php?id=100056004303717"><i class="fa-brands fa-facebook-f fa-lg" target="_blank"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-linkedin fa-lg" target="_blank"></i></a></li>
+                  </ul> 
+                  </span>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
+
+
+
 <!--Projects carousel-->
 
-<div class="container-sm carouselcontainer">
+<div class="container-sm carouselcontainer" id="projects">
     <h1 class="subheading">My Projects</h1>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -99,17 +102,17 @@
       </div>
 </div>
 <!--About me-->
-<div class="container-md aboutme">
+<div class="container aboutme" id="about">
   <div class="row">
     <div class="col-6">
-      <img src="./images/yourstruely.jpg" class="d-block w-100 aspectRatioBox mypicture">
+      <img src="./images/yourstruely.jpg" class="aspectRatioBox d-block w-100 ms-auto  mypicture">
     </div>
     <div class="col-6" id="mysection">
-    <span>
      <h1 class="subheading" style="color: white">About me</h1><br>
-    </span>
-     <button type="button" class="btn btn-outline-light btn-lg">My story</button><br>
-     <button type="button" class="btn btn-outline-light btn-lg">My resume</button> 
+     <div>
+     <button type="button" class="btn btn-outline-light mb-2">My story</button>
+     <button type="button" class="btn btn-outline-light">My resume</button> 
+    </div>
     </div>
   </div>
 </div>
